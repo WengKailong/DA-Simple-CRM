@@ -2,3 +2,31 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mr-16{
+    margin-right: 16px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.position-relative{
+    position:relative;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+mat-progress-bar{
+    position: absolute;
+    left: -24px;
+    right: -24px;
+    top: -24px;
+    width: calc(100% + 48px);
+}

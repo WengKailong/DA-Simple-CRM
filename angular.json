@@ -125,6 +125,10 @@
               "devServerTarget": "Simple-CRM:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
